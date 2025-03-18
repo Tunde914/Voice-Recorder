@@ -50,7 +50,7 @@ However, if you want to modify or extend the project:
 
 Clone the Repository
 
-git clone https://github.com/Tunde914/voice-recorder-app.git
+git clone https://tunde914.github.io/Voice-Recorder/
 cd voice-recorder-app
 
 Open in Browser
