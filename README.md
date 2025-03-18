@@ -44,7 +44,7 @@ Refresh the page – your recordings will still be there!
 
 🛠️ Installation & Setup
 
-No installation is required! Just open the index.html file in your browser.
+No installation is required! Just open https://github.com/Tunde914/Voice-Recorder file in your browser.
 
 However, if you want to modify or extend the project:
 
