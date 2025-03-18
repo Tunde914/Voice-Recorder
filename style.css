@@ -1,0 +1,105 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #121212;
+  color: #ffffff;
+  margin: 0;
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  width: 400px;
+  background: #1e1e1e;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#waveform {
+  width: 100%;
+  height: 100px;
+  background: black;
+  border-radius: 8px;
+  margin: 20px auto;
+  display: block;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-record {
+  background: #ffffff;
+  color: #121212;
+}
+
+.btn-stop {
+  background: #ff4444;
+  color: white;
+}
+
+.recording-list {
+  margin-top: 20px;
+}
+
+.recording {
+  background: #2c2c2c;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.play-btn {
+  background: #007BFF;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.play-btn:hover {
+  background: #0056b3; 
+}
+
+
+.delete-btn {
+  background: #ff4444;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-btn:hover {
+  background: #cc0000;
+}
